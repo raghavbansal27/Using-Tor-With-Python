@@ -6,4 +6,6 @@ pre-requisite:
 2. pip install requests[socks]
 3. pip install requests[security]
 
-*This program runs well in Python 3.7*
+*This program runs well in Python 3.7 and linux. In windows, it will create problem due to firewall issues.*
+
+Tip: If you are really concerned about your privacy then use linux :-p
