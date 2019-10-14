@@ -10,8 +10,8 @@ RealIP = session.get('http://httpbin.org/ip')
 print("Real IP:", RealIP.text)
 
 # Adding Proxies
-session.proxies['http'] = 'socks5h://localhost:9050'
-session.proxies['https'] = 'socks5h://localhost:9050'
+session.proxies['http'] = 'socks5h://127.0.0.1:9150'
+session.proxies['https'] = 'socks5h://127.0.0.1:9150'
 
 # To view Changed IP address
 ChangedIP = session.get("http://httpbin.org/ip")
